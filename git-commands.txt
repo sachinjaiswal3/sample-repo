@@ -13,3 +13,7 @@ git add <your-files-name-goes-here>
 
 #command to commit in local repository with commit message
 git commit -m "your-commit-message-goes-here" 
+
+#command to push local commits in remote repository
+git push origin <your-branch-name-goes-here>
+ 
