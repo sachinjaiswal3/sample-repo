@@ -1,4 +1,9 @@
 # one time commands
+ssh-keygen -t rsa
+cat <your-file-path-is-here>
+cat /c/Users/HP/.ssh/id_rsa.pub <example command>
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
 
 #command to clone remote repository
 git clone <remote-repository-link-goes-here>
@@ -11,9 +16,12 @@ git status
 #command to add file in staging area
 git add <your-files-name-goes-here>
 
+#command to add all file in staging area
+git add .
+
 #command to commit in local repository with commit message
 git commit -m "your-commit-message-goes-here" 
 
 #command to push local commits in remote repository
 git push origin <your-branch-name-goes-here>
- 
+
