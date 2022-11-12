@@ -1,0 +1,15 @@
+# one time commands
+
+#command to clone remote repository
+git clone <remote-repository-link-goes-here>
+
+#regular uses commands
+
+#command to check status in git
+git status
+
+#command to add file in staging area
+git add <your-files-name-goes-here>
+
+#command to commit in local repository with commit message
+git commit -m "your-commit-message-goes-here" 
